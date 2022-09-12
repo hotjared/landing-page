@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+}
+
+.clickme {
+    color: blue;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
