@@ -1,12 +1,48 @@
-.header {
-    display: flex;
-    padding: 10px;
-    gap: 8px;
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: lightgray;
+    font-family: sans-serif;
 }
 
-.clickme {
-    color: blue;
-    flex: 1;
+.header {
+    display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    align-items: center;
+    margin: 8px;
+    margin-bottom: 5rem;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.header .buttons {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.center-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-style: solid;
+    padding: 50px;
+    padding-top: 0px
+}
+
+.media-text h1 {
+    margin-bottom: 10px;
+}
+
+.center-button{
+    border-style: solid;
+    padding: 8px;
+    max-width: fit-content;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: larger;
 }
