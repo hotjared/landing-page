@@ -29,7 +29,6 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border-style: solid;
     padding: 50px;
     padding-top: 0px
 }
@@ -45,4 +44,46 @@
     margin-top: 10px;
     border-radius: 15px;
     font-size: larger;
+}
+
+.bottom-media * {
+    background-color: white;
+}
+
+.bottom-media {
+    background-color: white;
+    padding: 20px;
+}
+
+.bottom-media h2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-bottom: 40px;
+
+}
+
+.cali-exact {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.cali-pic {
+    margin: 5px;
+}
+
+.cali-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    text-align: center;
 }
