@@ -2,8 +2,11 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    background-color: lightgray;
     font-family: sans-serif;
+}
+
+.section1 {
+    background-color: lightgray;
 }
 
 .header {
@@ -11,7 +14,9 @@
     justify-content: space-around;
     align-items: center;
     margin: 8px;
+    margin-top: 0px;
     margin-bottom: 5rem;
+    padding-top: 10px;
 }
 
 .logo {
@@ -30,7 +35,11 @@
     align-items: center;
     gap: 40px;
     padding: 50px;
-    padding-top: 0px
+    padding-top: 0px;
+}
+
+.center-image {
+    border-radius: 15px;
 }
 
 .media-text h1 {
@@ -49,13 +58,7 @@
     font-weight: bold;
 }
 
-
-.bottom-media * {
-    background-color: white;
-}
-
 .bottom-media {
-    background-color: white;
     padding: 20px;
 }
 
@@ -90,4 +93,74 @@
     align-items: center;
     max-width: fit-content;
     text-align: center;
+}
+
+.review-section {
+    background-color: lightskyblue;
+}
+
+.review-section {
+    padding: 7rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.quote {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.signature {
+    align-self: flex-end;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.call-to-action .container {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    max-width: 70ch;
+    border-radius: 15px;
+    gap: 40px;
+}
+
+.call-button,
+.call-button :visited {
+    border-color: white;
+    padding: 8px;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+}
+
+.copyright-section {
+    display: flex;
+    background-color: rgb(110, 178, 178);
+    justify-content: center;
+    padding: 20px;
+    font-weight:400
 }
